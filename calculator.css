@@ -16,7 +16,7 @@ body {
 
       #calculator-body {
         flex-wrap: wrap;
-        height: 90vh;
+        height: 92vh;
         background-color: black;
       }
 
@@ -40,9 +40,12 @@ body {
         align-items: flex-end;
       }
 
-      .buttons,
-      #zero {
+      .buttons{
         border-radius: 50%;
+      }
+
+      .zero {
+        border-radius: 0%;
       }
 
       .buttons {
